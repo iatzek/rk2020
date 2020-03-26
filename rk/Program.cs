@@ -8,7 +8,7 @@ namespace rk
         {
             double a, b, c;
 
-            Console.WriteLine("ax^2+bx+c=0");
+            Console.WriteLine("ax^2+bx+c = 0");
             Console.WriteLine("Podaj a");
             a = double.Parse(Console.ReadLine());
 
