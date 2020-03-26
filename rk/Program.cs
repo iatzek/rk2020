@@ -25,6 +25,9 @@ namespace rk
                 double x2 = (-b - Math.Sqrt(delta)) / 2 * a;
 
                 Console.WriteLine(String.Format("x1={0}, x2={1}", x1, x2));
+            } else
+            {
+                Console.WriteLine("Brak rozwiązań rzeczywistych");
             }
         }
     }
